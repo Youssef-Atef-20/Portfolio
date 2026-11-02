@@ -1,0 +1,24 @@
+{
+  "issuer": "https://youssef-atef-portfolio.vercel.app",
+  "authorization_endpoint": "https://youssef-atef-portfolio.vercel.app/auth",
+  "token_endpoint": "https://youssef-atef-portfolio.vercel.app/auth/token",
+  "userinfo_endpoint": "https://youssef-atef-portfolio.vercel.app/userinfo",
+  "jwks_uri": "https://youssef-atef-portfolio.vercel.app/.well-known/jwks.json",
+  "response_types_supported": [
+    "token",
+    "id_token",
+    "code"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email"
+  ]
+}
+

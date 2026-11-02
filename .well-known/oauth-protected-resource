@@ -1,0 +1,15 @@
+{
+  "resource": "https://youssef-atef-portfolio.vercel.app",
+  "authorization_servers": [
+    "https://youssef-atef-portfolio.vercel.app"
+  ],
+  "bearer_methods_supported": [
+    "header"
+  ],
+  "scopes_supported": [
+    "public",
+    "read:profile",
+    "read:projects"
+  ]
+}
+
