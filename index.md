@@ -24,31 +24,37 @@
 
 ## Featured Projects
 
-### 1. Hot Deals E-Commerce
+### 1. Restaurant System
+A complete full-stack restaurant management solution consisting of two interconnected applications: an interactive customer digital menu and a secure administrative dashboard.
+- **Tech Stack**: React, Tailwind CSS, Supabase, Full Stack
+- **Architecture**: Connected Applications Architecture (Public Customer Digital Menu + Administrative Management Dashboard)
+- **Live Digital Menu**: [https://restaurant-digital-menu-ya.vercel.app/](https://restaurant-digital-menu-ya.vercel.app/)
+
+### 2. Hot Deals E-Commerce
 A comprehensive full-stack e-commerce web application featuring product browsing, cart management, and an integrated loyalty points system.
 - **Tech Stack**: React, Tailwind CSS, REST APIs
 - **Live Demo**: [https://e-commerce-lake-chi.vercel.app/](https://e-commerce-lake-chi.vercel.app/)
 - **Source Code**: [https://github.com/Youssef-Atef-20/E-Commerce](https://github.com/Youssef-Atef-20/E-Commerce)
 
-### 2. Quran Kareem Web Application
+### 3. Quran Kareem Web Application
 A modern, accessible Quran web application providing organized surah navigation, readable typography, and seamless audio playback.
 - **Tech Stack**: React, Context API, CSS3
 - **Live Demo**: [https://quran-kareem-ya-21.vercel.app/](https://quran-kareem-ya-21.vercel.app/)
 - **Source Code**: [https://github.com/Youssef-Atef-20/Quran-Kareem](https://github.com/Youssef-Atef-20/Quran-Kareem)
 
-### 3. Digital Agency Business Website
+### 4. Digital Agency Business Website
 A corporate website for a digital agency offering smart business solutions with a modern, high-converting responsive design.
 - **Tech Stack**: HTML5, CSS3, JavaScript
 - **Live Demo**: [https://start-company.vercel.app/](https://start-company.vercel.app/)
 - **Source Code**: [https://github.com/Youssef-Atef-20/Start-Company](https://github.com/Youssef-Atef-20/Start-Company)
 
-### 4. Sebha | سبحة (Digital Tasbeeh PWA)
+### 5. Sebha | سبحة (Digital Tasbeeh PWA)
 A digital Tasbeeh progressive web app providing an interactive counter and daily Islamic supplications (dhikr) with a clean, distraction-free interface.
 - **Tech Stack**: JavaScript, PWA, LocalStorage
 - **Live Demo**: [https://sebha-ya.vercel.app/](https://sebha-ya.vercel.app/)
 - **Source Code**: [https://github.com/Youssef-Atef-20/Sebha-Ya](https://github.com/Youssef-Atef-20/Sebha-Ya)
 
-### 5. Ocean Pearl Hotel
+### 6. Ocean Pearl Hotel
 A complete hotel booking platform enabling users to browse available rooms, check dates, and make reservations seamlessly.
 - **Tech Stack**: Full Stack, JavaScript, Database
 - **Live Demo**: [https://allway.kesug.com/](https://allway.kesug.com/)

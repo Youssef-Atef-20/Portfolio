@@ -27,6 +27,7 @@ Accept: text/markdown
 Or access `/index.md` directly.
 
 ### 2. Available Projects
+- **Restaurant System**: Two connected applications (React, Tailwind CSS, Supabase) featuring a public customer digital menu and an administrative management dashboard.
 - **Hot Deals E-Commerce**: React, Tailwind CSS, Cart & Loyalty points system.
 - **Quran Kareem Web App**: React, Context API, Surah navigation & Audio player.
 - **Digital Agency Business Site**: Modern corporate UI with responsive design.
