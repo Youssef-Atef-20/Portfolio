@@ -37,6 +37,11 @@
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://youssef-atef-portfolio.vercel.app/">
   <meta name="author" content="Youssef Atef">
+  <!-- Agent Discovery (RFC 8288 / RFC 9727 / ARD / Markdown) -->
+  <link rel="api-catalog" href="/.well-known/api-catalog" type="application/linkset+json">
+  <link rel="service-desc" href="/.well-known/ai-catalog.json" type="application/json">
+  <link rel="agent-skills" href="/.well-known/agent-skills/index.json" type="application/json">
+  <link rel="alternate" type="text/markdown" href="/index.md">
   <meta name="keywords"
     content="Front End Developer, Frontend Developer, Front-End Engineer, React Developer, React.js Developer, JavaScript Developer, TypeScript Developer, Web Developer, UI Developer, Frontend Web Development, React Developer Portfolio, Front End Developer Portfolio, Hire Front End Developer, Freelance Frontend Developer, Responsive Web Design, Tailwind CSS, Next.js, Redux, Web Developer Egypt, Frontend Developer Cairo, Youssef Atef, يوسف عاطف, مطور فرونت اند, مبرمج فرونت اند, مطور واجهات مستخدم, مطور ريأكت, مبرمج مواقع">
 
@@ -340,25 +345,25 @@
     <section id="contact" class="section">
       <div class="container">
         <h2 data-aos="zoom-in">Get In Touch</h2>
-        <form class="contact-form" data-aos="zoom-in" action="https://formsubmit.co/hh3928850@gmail.com" method="POST">
+        <form class="contact-form" data-aos="zoom-in" action="https://formsubmit.co/hh3928850@gmail.com" method="POST" toolname="send_contact_message" tooldescription="Send a contact message or job inquiry directly to Youssef Atef">
           <div class="form-group">
             <label for="name" class="form-label">Your Name</label>
-            <input type="text" id="name" name="name" class="form-control" placeholder="John Doe" autocomplete="name"
+            <input type="text" id="name" name="name" class="form-control" placeholder="John Doe" autocomplete="name" toolparamdescription="Full name of the sender"
               required>
           </div>
           <div class="form-group">
             <label for="phone_number" class="form-label">Phone Number (Optional)</label>
             <input type="tel" id="phone_number" name="phone_number" class="form-control" placeholder="+1 (555) 000-0000"
-              autocomplete="tel">
+              autocomplete="tel" toolparamdescription="Contact phone number of the sender">
           </div>
           <div class="form-group">
             <label for="email" class="form-label">Email Address</label>
             <input type="email" id="email" name="email" class="form-control" placeholder="john@example.com"
-              autocomplete="email" required>
+              autocomplete="email" toolparamdescription="Email address of the sender" required>
           </div>
           <div class="form-group">
             <label for="message" class="form-label">Your Message</label>
-            <textarea id="message" name="message" class="form-control" placeholder="How can I help you?"
+            <textarea id="message" name="message" class="form-control" placeholder="How can I help you?" toolparamdescription="The message or project inquiry body"
               required></textarea>
           </div>
           <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
@@ -487,6 +492,32 @@
 
       setTimeout(type, 1000);
     });
+  </script>
+  <!-- WebMCP (Web Model Context Protocol) Tool Registration -->
+  <script>
+    if (typeof document !== 'undefined' && document.modelContext && typeof document.modelContext.registerTool === 'function') {
+      document.modelContext.registerTool({
+        name: "getYoussefProfile",
+        description: "Get developer profile, technical skills, resume download URL, and contact details for Youssef Atef (Front End React Developer)",
+        inputSchema: {
+          type: "object",
+          properties: {}
+        },
+        execute: async () => {
+          return JSON.stringify({
+            name: "Youssef Atef",
+            role: "Front End React Developer",
+            skills: ["React", "JavaScript", "TypeScript", "Next.js", "Tailwind CSS", "Redux", "HTML5", "CSS3"],
+            location: "Cairo, Egypt",
+            email: "hh3928850@gmail.com",
+            resumeUrl: "https://youssef-atef-portfolio.vercel.app/Youssef%20Atef%20Frontend%20React%20Developer%20Cv-1.pdf",
+            portfolioUrl: "https://youssef-atef-portfolio.vercel.app/",
+            github: "https://github.com/Youssef-Atef-20",
+            linkedin: "https://www.linkedin.com/in/youssefatef20"
+          });
+        }
+      }).catch(function () {});
+    }
   </script>
 </body>
 

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/v1/server-card.schema.json",
+  "version": "1.0.0",
+  "name": "youssef-atef-portfolio",
+  "title": "Youssef Atef Portfolio MCP Server",
+  "description": "MCP discovery card for Youssef Atef, Front End React Developer. Provides tools to query projects, skills, and contact details.",
+  "websiteUrl": "https://youssef-atef-portfolio.vercel.app",
+  "protocolVersion": "2025-06-18",
+  "serverInfo": {
+    "name": "youssef-atef-portfolio",
+    "version": "1.0.0"
+  },
+  "capabilities": {
+    "tools": {
+      "getYoussefProfile": {
+        "description": "Fetch developer resume, biography, contact information, and tech stack."
+      },
+      "listProjects": {
+        "description": "Retrieve the list of web development projects with demo URLs and repositories."
+      }
+    },
+    "resources": {
+      "resume": {
+        "uri": "https://youssef-atef-portfolio.vercel.app/Youssef%20Atef%20Frontend%20React%20Developer%20Cv-1.pdf",
+        "mimeType": "application/pdf"
+      }
+    }
+  },
+  "transport": {
+    "type": "streamable-http",
+    "endpoint": "https://youssef-atef-portfolio.vercel.app/api/mcp"
+  },
+  "endpoints": [
+    {
+      "type": "streamable-http",
+      "url": "https://youssef-atef-portfolio.vercel.app/api/mcp"
+    }
+  ]
+}
+

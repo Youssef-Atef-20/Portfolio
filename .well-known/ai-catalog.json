@@ -1,0 +1,47 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Youssef Atef Portfolio",
+    "identifier": "did:web:youssef-atef-portfolio.vercel.app",
+    "documentationUrl": "https://youssef-atef-portfolio.vercel.app/auth.md"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:youssef-atef-portfolio.vercel.app:skill:portfolio-inquiry",
+      "displayName": "Youssef Atef Portfolio Inquiry Skill",
+      "type": "text/markdown",
+      "url": "https://youssef-atef-portfolio.vercel.app/.well-known/agent-skills/portfolio-inquiry/SKILL.md",
+      "description": "Interactive instructions for AI agents to query Youssef Atef's developer portfolio, examine code samples, and submit contact messages.",
+      "tags": [
+        "portfolio",
+        "frontend",
+        "react",
+        "developer",
+        "cairo"
+      ],
+      "representativeQueries": [
+        "hire a Front End React Developer",
+        "find React developers in Egypt",
+        "view Youssef Atef's web development projects",
+        "send a job inquiry to Youssef Atef"
+      ]
+    },
+    {
+      "identifier": "urn:air:youssef-atef-portfolio.vercel.app:mcp:server-card",
+      "displayName": "Youssef Atef Portfolio MCP Card",
+      "type": "application/mcp-server-card+json",
+      "url": "https://youssef-atef-portfolio.vercel.app/.well-known/mcp/server-card.json",
+      "description": "Model Context Protocol (MCP) server card advertising capabilities, resume data, and tools for Youssef Atef.",
+      "tags": [
+        "mcp",
+        "tools",
+        "agent-ready"
+      ],
+      "representativeQueries": [
+        "connect to Youssef Atef's MCP server",
+        "fetch developer resume and tools via MCP"
+      ]
+    }
+  ]
+}
+

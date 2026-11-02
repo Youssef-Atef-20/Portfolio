@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "portfolio-inquiry",
+      "type": "instruction",
+      "description": "Guides AI agents through querying Youssef Atef's developer portfolio, exploring projects and skills, and sending inquiries.",
+      "url": "https://youssef-atef-portfolio.vercel.app/.well-known/agent-skills/portfolio-inquiry/SKILL.md",
+      "digest": "sha256:13b1b6ae6a897210e671dd603891adf55cb0e197810488af9d6407b2830c90fa"
+    }
+  ]
+}
+

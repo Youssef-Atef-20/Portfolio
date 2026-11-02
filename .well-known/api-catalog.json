@@ -1,0 +1,26 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://youssef-atef-portfolio.vercel.app/api",
+      "service-desc": [
+        {
+          "href": "https://youssef-atef-portfolio.vercel.app/.well-known/ai-catalog.json",
+          "type": "application/json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://youssef-atef-portfolio.vercel.app/.well-known/mcp/server-card.json",
+          "type": "application/json"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://youssef-atef-portfolio.vercel.app/",
+          "type": "text/html"
+        }
+      ]
+    }
+  ]
+}
+
