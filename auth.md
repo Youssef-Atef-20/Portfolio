@@ -1,4 +1,4 @@
-# Agent Registration & Authentication Policy
+# Auth.md
 
 Welcome to the agent interface for the portfolio of **Youssef Atef**, Front End React Developer.
 
