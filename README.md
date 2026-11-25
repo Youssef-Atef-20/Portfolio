@@ -66,12 +66,6 @@ To run this project locally, follow these simple steps:
 3. **Run the project:**
    Simply open the `index.html` file in any modern web browser or use a live server extension (like VS Code Live Server).
 
----
-
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 🤝 Connect with Me
 * **LinkedIn:** [linkedin.com/in/youssefatef20](https://www.linkedin.com/in/youssefatef20)
