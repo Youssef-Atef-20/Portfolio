@@ -55,7 +55,7 @@ To run this project locally, follow these simple steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Youssef-Atef-20/Portfolio4.git
+   git clone https://github.com/Youssef-Atef-20/Portfolio.git
    ```
 
 2. **Open the project folder:**
@@ -71,4 +71,4 @@ To run this project locally, follow these simple steps:
 ## 🤝 Connect with Me
 * **LinkedIn:** [linkedin.com/in/youssefatef20](https://www.linkedin.com/in/youssefatef20)
 * **WhatsApp:** [Message Me](https://wa.me/qr/VZCPTO7S4LQMH1)
-* **Email:** [hh3928850@gmail.com](mailto:hh3928850@gmail.com)
+* **Email:** [hh3928850@gmail.com](mailto:youssef.atef.amer04@gmail.com)
