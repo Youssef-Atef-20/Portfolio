@@ -66,10 +66,6 @@ To run this project locally, follow these simple steps:
 3. **Run the project:**
    Simply open the `index.html` file in any modern web browser or use a live server extension (like VS Code Live Server).
 
-## Project URL
-
-[Live Demo](https://roadmap.sh/projects/single-page-cv)
-
 ---
 
 ## 📄 License
