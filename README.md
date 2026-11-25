@@ -66,8 +66,8 @@ To run this project locally, follow these simple steps:
 3. **Run the project:**
    Simply open the `index.html` file in any modern web browser or use a live server extension (like VS Code Live Server).
 
-```
-```
+
+
 ## 🤝 Connect with Me
 * **LinkedIn:** [linkedin.com/in/youssefatef20](https://www.linkedin.com/in/youssefatef20)
 * **WhatsApp:** [Message Me](https://wa.me/qr/VZCPTO7S4LQMH1)
