@@ -71,4 +71,4 @@ To run this project locally, follow these simple steps:
 ## 🤝 Connect with Me
 * **LinkedIn:** [linkedin.com/in/youssefatef20](https://www.linkedin.com/in/youssefatef20)
 * **WhatsApp:** [Message Me](https://wa.me/qr/VZCPTO7S4LQMH1)
-* **Email:** [hh3928850@gmail.com](mailto:youssef.atef.amer04@gmail.com)
+* **Email:** [youssef.atef.amer04@gmail.com](mailto:youssef.atef.amer04@gmail.com)
