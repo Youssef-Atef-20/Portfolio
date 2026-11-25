@@ -68,7 +68,7 @@ To run this project locally, follow these simple steps:
 
 ## Project URL
 
-[Live Demo](youssef-atef-portfolio.vercel.app)
+[Live Demo](https://roadmap.sh/projects/single-page-cv)
 
 ---
 
